@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#182e27">
+  <title>Cricket Tactics | Match Simulator</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="eyebrow">THE LONG GAME</span>
+      <h1>Kirkit Expert</h1>
+    </div>
+    <span class="topbar-note">MATCH SIMULATOR <i></i> BALL-BY-BALL</span>
+  </header>
+
+  <section class="setup panel">
+    <label>FORMAT<select id="format"><option>T20</option><option>ODI</option><option>Test</option></select></label>
+    <label>PITCH<select id="pitch"><option>Green seamer</option><option selected>Dusty turner</option><option>Flat track</option></select></label>
+    <label>YOUR ROLE<select id="role"><option>Batting</option><option>Bowling</option></select></label>
+    <label>STRIKER<select id="batter"></select></label>
+    <label>NON-STRIKER<select id="partner"></select></label>
+    <label>BOWLER <span id="bowler-style" class="style-tag"></span><select id="bowler"></select></label>
+    <button id="new-match" class="button button-dark">NEW MATCH</button>
+  </section>
+  <section class="team-lineups" aria-label="Team lineups">
+    <details id="xi-picker" class="panel lineup-panel">
+      <summary>YOUR XI · PICK PLAYERS BY ROLE <span>3 BAT · 2 WK · 3 AR · 3 BOWL</span></summary>
+      <div id="xi-slots" class="xi-slots"></div>
+      <p class="xi-help">Your lineup locks after the first ball. The batting order moves through these role groups.</p>
+    </details>
+    <details id="opponent-xi" class="panel lineup-panel">
+      <summary>OPPONENT XI · VARIES EACH MATCH</summary>
+      <div id="opponent-xi-list" class="opponent-xi-list"></div>
+    </details>
+  </section>
+
+  <section class="score-strip">
+    <strong id="score">0/0</strong>
+    <span id="overs">INNINGS 1 · 0.0 overs</span>
+    <span id="rates">RUN RATE 0.00</span>
+  </section>
+  <div id="result" class="result" hidden></div>
+  <section class="active-scorecard panel">
+    <div id="batter-card"></div>
+    <div id="partner-card"></div>
+    <div id="bowler-card"></div>
+  </section>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="panel tactics">
+        <h2>YOUR TACTICS</h2>
+        <div id="delivery-preview" class="delivery-preview"></div>
+        <div id="batting-controls">
+          <label class="control-label" for="shot">SHOT SELECTION · SUITABLE FOR DELIVERY</label>
+          <select id="shot"></select>
+          <label class="control-label aggression-label" for="aggression">AGGRESSION <span>1 SAFE — 5 ATTACK</span></label>
+          <input id="aggression" type="range" min="1" max="5" value="3">
+          <output id="aggression-value">3</output>
+        </div>
+        <div id="bowling-controls" hidden>
+          <div id="bowling-stage" class="control-label"></div>
+          <div id="bowling-summary" class="bowling-summary"></div>
+          <div id="bowling-choices" class="bowling-choices"></div>
+        </div>
+        <button id="play-ball" class="button button-play">PLAY NEXT BALL</button>
+      </section>
+      <section class="conditions">
+        <h2>CONDITIONS</h2>
+        <div id="conditions-card" class="panel conditions-card"></div>
+      </section>
+      <section id="follow-on-controls" class="panel match-rule-controls" hidden>
+        <p id="follow-on-message"></p>
+        <button id="enforce-follow-on" class="button button-dark">ENFORCE FOLLOW-ON</button>
+        <button id="decline-follow-on" class="button button-replay">BAT AGAIN</button>
+      </section>
+      <section id="new-ball-controls" class="panel match-rule-controls" hidden>
+        <p id="new-ball-message"></p>
+        <button id="take-new-ball" class="button button-dark">TAKE NEW BALL</button>
+      </section>
+    </aside>
+
+    <section class="match-area">
+      <div class="section-heading">
+        <h2>MATCH VIEW</h2>
+        <div class="view-actions">
+          <button id="action-replay" class="button button-replay" disabled>ACTION REPLAY</button>
+          <details id="highlights-menu" class="highlights-menu">
+            <summary>HIGHLIGHTS <span id="highlights-count">0</span></summary>
+            <div id="highlights-list" class="highlights-list"></div>
+          </details>
+          <label class="view-select">VIEW<select id="view"><option>Batter's eye</option><option>Bowler's eye</option></select></label>
+        </div>
+      </div>
+      <div class="visuals">
+        <canvas id="view-canvas" class="view-canvas" aria-label="Pitch view"></canvas>
+        <canvas id="field-canvas" class="field-canvas" aria-label="Cricket field; drag fielders to reposition"></canvas>
+      </div>
+      <div id="commentary" class="commentary panel">A new match is ready.</div>
+    </section>
+  </main>
+</body>
+</html>

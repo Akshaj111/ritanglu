@@ -1,0 +1,347 @@
+{
+  "players": {
+    "Batters": {
+      "Virat Kohli (prime)": 96,
+      "Sachin Tendulkar (prime)": 105,
+      "Brian Lara (prime)": 98,
+      "Ricky Ponting (prime)": 97,
+      "AB de Villiers (prime)": 96,
+      "Kumar Sangakkara (prime)": 95,
+      "Jacques Kallis (prime)": 96,
+      "Chris Gayle (prime)": 95,
+      "Rohit Sharma (prime)": 94,
+      "Kane Williamson (prime)": 94,
+      "Joe Root (prime)": 90,
+      "Steve Smith (prime)": 95,
+      "Babar Azam (prime)": 89,
+      "Yashasvi Jaiswal (current)": 101,
+      "Vaibhav Sooryavanshi (current)": 97,
+      "MS Dhoni (prime)": 96,
+      "Ben Stokes (prime)": 95,
+      "Jasprit Bumrah (prime)": 50,
+      "James Anderson (prime)": 45,
+      "Shane Warne (prime)": 60,
+      "Muttiah Muralitharan (prime)": 52,
+      "Wasim Akram (prime)": 65,
+      "Glenn McGrath (prime)": 50,
+      "Dale Steyn (prime)": 55,
+      "Waqar Younis (prime)": 52,
+      "Anil Kumble (prime)": 60,
+      "Pat Cummins (prime)": 65,
+      "Mitchell Starc (current)": 48,
+      "Trent Boult (current)": 45,
+      "Shaheen Afridi (current)": 42,
+      "Ravichandran Ashwin (prime)": 82,
+      "Rashid Khan (current)": 62,
+      "Nathan Lyon (current)": 48,
+      "Adam Gilchrist (prime)": 97,
+      "Jos Buttler (prime)": 92,
+      "Rishabh Pant (current)": 92,
+      "Ravindra Jadeja (prime)": 84,
+      "Shakib Al Hasan (prime)": 90,
+      "Andrew Flintoff (prime)": 86,
+      "Gaamer": 88
+    },
+    "Bowlers": {
+      "Jasprit Bumrah (prime)": 98,
+      "James Anderson (prime)": 95,
+      "Shane Warne (prime)": 97,
+      "Muttiah Muralitharan (prime)": 98,
+      "Wasim Akram (prime)": 98,
+      "Glenn McGrath (prime)": 97,
+      "Dale Steyn (prime)": 97,
+      "Waqar Younis (prime)": 96,
+      "Anil Kumble (prime)": 95,
+      "Pat Cummins (prime)": 92,
+      "Mitchell Starc (current)": 92,
+      "Trent Boult (current)": 91,
+      "Shaheen Afridi (current)": 90,
+      "Ravichandran Ashwin (prime)": 96,
+      "Rashid Khan (current)": 93,
+      "Nathan Lyon (current)": 89,
+      "Jacques Kallis (prime)": 91,
+      "Chris Gayle (prime)": 75,
+      "Ben Stokes (prime)": 84,
+      "Ravindra Jadeja (prime)": 94,
+      "Shakib Al Hasan (prime)": 90,
+      "Andrew Flintoff (prime)": 89,
+      "Gaamer": 88
+    }
+  },
+  "teamRolePools": {
+    "Batters": [
+      "Virat Kohli (prime)",
+      "Sachin Tendulkar (prime)",
+      "Brian Lara (prime)",
+      "Ricky Ponting (prime)",
+      "Rohit Sharma (prime)",
+      "Kane Williamson (prime)",
+      "Joe Root (prime)",
+      "Steve Smith (prime)",
+      "Babar Azam (prime)",
+      "Yashasvi Jaiswal (current)",
+      "Vaibhav Sooryavanshi (current)"
+    ],
+    "Wicketkeepers": [
+      "AB de Villiers (prime)",
+      "MS Dhoni (prime)",
+      "Kumar Sangakkara (prime)",
+      "Adam Gilchrist (prime)",
+      "Jos Buttler (prime)",
+      "Rishabh Pant (current)"
+    ],
+    "All-rounders": [
+      "Jacques Kallis (prime)",
+      "Chris Gayle (prime)",
+      "Ben Stokes (prime)",
+      "Ravichandran Ashwin (prime)",
+      "Ravindra Jadeja (prime)",
+      "Shakib Al Hasan (prime)",
+      "Andrew Flintoff (prime)",
+      "Gaamer"
+    ],
+    "Bowlers": [
+      "Jasprit Bumrah (prime)",
+      "James Anderson (prime)",
+      "Shane Warne (prime)",
+      "Muttiah Muralitharan (prime)",
+      "Wasim Akram (prime)",
+      "Glenn McGrath (prime)",
+      "Dale Steyn (prime)",
+      "Waqar Younis (prime)",
+      "Anil Kumble (prime)",
+      "Pat Cummins (prime)",
+      "Mitchell Starc (current)",
+      "Trent Boult (current)",
+      "Shaheen Afridi (current)",
+      "Rashid Khan (current)",
+      "Nathan Lyon (current)"
+    ]
+  },
+  "defaultTeamRoles": {
+    "Batters": [
+      "Virat Kohli (prime)",
+      "Sachin Tendulkar (prime)",
+      "Ricky Ponting (prime)"
+    ],
+    "Wicketkeepers": [
+      "MS Dhoni (prime)",
+      "Kumar Sangakkara (prime)"
+    ],
+    "All-rounders": [
+      "Jacques Kallis (prime)",
+      "Chris Gayle (prime)",
+      "Ben Stokes (prime)"
+    ],
+    "Bowlers": [
+      "Jasprit Bumrah (prime)",
+      "Shane Warne (prime)",
+      "Wasim Akram (prime)"
+    ]
+  },
+  "batterHands": {
+    "Virat Kohli (prime)": "Right",
+    "Sachin Tendulkar (prime)": "Right",
+    "Brian Lara (prime)": "Left",
+    "Ricky Ponting (prime)": "Right",
+    "AB de Villiers (prime)": "Right",
+    "Kumar Sangakkara (prime)": "Left",
+    "Jacques Kallis (prime)": "Right",
+    "Chris Gayle (prime)": "Left",
+    "Rohit Sharma (prime)": "Right",
+    "Kane Williamson (prime)": "Right",
+    "Joe Root (prime)": "Right",
+    "Steve Smith (prime)": "Right",
+    "Babar Azam (prime)": "Right",
+    "Yashasvi Jaiswal (current)": "Left",
+    "Vaibhav Sooryavanshi (current)": "Left",
+    "MS Dhoni (prime)": "Right",
+    "Adam Gilchrist (prime)": "Left",
+    "Jos Buttler (prime)": "Right",
+    "Rishabh Pant (current)": "Left",
+    "Jasprit Bumrah (prime)": "Right",
+    "James Anderson (prime)": "Right",
+    "Shane Warne (prime)": "Right",
+    "Muttiah Muralitharan (prime)": "Right",
+    "Wasim Akram (prime)": "Left",
+    "Glenn McGrath (prime)": "Right",
+    "Dale Steyn (prime)": "Right",
+    "Waqar Younis (prime)": "Right",
+    "Anil Kumble (prime)": "Right",
+    "Pat Cummins (prime)": "Right",
+    "Mitchell Starc (current)": "Left",
+    "Trent Boult (current)": "Left",
+    "Shaheen Afridi (current)": "Left",
+    "Ravichandran Ashwin (prime)": "Left",
+    "Rashid Khan (current)": "Right",
+    "Nathan Lyon (current)": "Right",
+    "Ravindra Jadeja (prime)": "Left",
+    "Shakib Al Hasan (prime)": "Left",
+    "Andrew Flintoff (prime)": "Right",
+    "Gaamer": "Right"
+  },
+  "fieldPositions": {
+    "Keeper": [
+      0.5,
+      0.68
+    ],
+    "Slip": [
+      0.38,
+      0.69
+    ],
+    "Gully": [
+      0.31,
+      0.61
+    ],
+    "Point": [
+      0.22,
+      0.5
+    ],
+    "Cover": [
+      0.34,
+      0.36
+    ],
+    "Mid-off": [
+      0.44,
+      0.29
+    ],
+    "Mid-on": [
+      0.56,
+      0.29
+    ],
+    "Square leg": [
+      0.77,
+      0.5
+    ],
+    "Fine leg": [
+      0.69,
+      0.67
+    ],
+    "Long-on": [
+      0.61,
+      0.12
+    ]
+  },
+  "ballTypes": [
+    "Inswinger",
+    "Outswinger",
+    "Wobble-seam",
+    "Cross-seam",
+    "Fast",
+    "Slower-ball",
+    "Off cutter",
+    "Leg cutter",
+    "Knuckleball",
+    "Wide yorker",
+    "Back-of-the-hand slower ball",
+    "Toe-crushing",
+    "Arm-ball",
+    "Stock off-break",
+    "Leg break",
+    "Googly",
+    "Doosra",
+    "Top-spinner",
+    "Slider",
+    "Flipper",
+    "Carrom ball",
+    "Reverse-swing",
+    "Stock ball"
+  ],
+  "bowlerStyles": {
+    "Jasprit Bumrah (prime)": "Fast bowler",
+    "James Anderson (prime)": "Fast bowler",
+    "Shane Warne (prime)": "Leg spinner",
+    "Muttiah Muralitharan (prime)": "Off spinner",
+    "Wasim Akram (prime)": "Fast bowler",
+    "Glenn McGrath (prime)": "Fast bowler",
+    "Dale Steyn (prime)": "Fast bowler",
+    "Waqar Younis (prime)": "Fast bowler",
+    "Anil Kumble (prime)": "Leg spinner",
+    "Pat Cummins (prime)": "Fast bowler",
+    "Mitchell Starc (current)": "Fast bowler",
+    "Trent Boult (current)": "Fast bowler",
+    "Shaheen Afridi (current)": "Fast bowler",
+    "Ravichandran Ashwin (prime)": "Off spinner",
+    "Rashid Khan (current)": "Leg spinner",
+    "Nathan Lyon (current)": "Off spinner",
+    "Jacques Kallis (prime)": "Fast bowler",
+    "Chris Gayle (prime)": "Fast bowler",
+    "Ben Stokes (prime)": "Fast bowler",
+    "Ravindra Jadeja (prime)": "Off spinner",
+    "Shakib Al Hasan (prime)": "Off spinner",
+    "Andrew Flintoff (prime)": "Fast bowler",
+    "Gaamer": "Fast bowler"
+  },
+  "spinBallTypes": {
+    "Leg spinner": [
+      "Leg break",
+      "Googly",
+      "Top-spinner",
+      "Slider",
+      "Flipper",
+      "Zooter",
+      "Drifter"
+    ],
+    "Off spinner": [
+      "Arm-ball",
+      "Stock off-break",
+      "Doosra",
+      "Carrom ball",
+      "Top-spinner",
+      "Drifter"
+    ]
+  },
+  "paceBallTypes": [
+    "Inswinger",
+    "Outswinger",
+    "Wobble-seam",
+    "Cross-seam",
+    "Fast",
+    "Slower-ball",
+    "Off cutter",
+    "Leg cutter",
+    "Knuckleball",
+    "Wide yorker",
+    "Back-of-the-hand slower ball",
+    "Toe-crushing",
+    "Reverse-swing",
+    "Stock ball"
+  ],
+  "shots": [
+    "Cover drive",
+    "Back-foot defence",
+    "Sweep",
+    "Pull",
+    "Straight drive",
+    "Leave",
+    "On drive",
+    "Flick",
+    "Square cut",
+    "Late cut",
+    "Reverse sweep",
+    "Slog sweep",
+    "Upper cut",
+    "Ramp",
+    "Defensive block",
+    "Scoop",
+    "Lofted drive",
+    "Dance down the track"
+  ],
+  "lines": [
+    "Just inside tramline",
+    "6th-7th stump",
+    "4th stump",
+    "Off stump",
+    "Middle stump",
+    "Leg stump",
+    "Leg line"
+  ],
+  "lengths": [
+    "Yorker",
+    "Full",
+    "Good length",
+    "Short",
+    "Bouncer",
+    "Full toss"
+  ]
+}
